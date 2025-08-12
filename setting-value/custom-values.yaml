@@ -2,6 +2,8 @@
 #2. Set our own wordpress password
 #3. Increase the replica count to 3
 
-wordpressUsername: admin
 existingSecret: custom-wp-credentials
-replicaCount: 3
+autoscaling:
+  enabled: true
+  minReplicas: 2
+  maxReplicas: 10
