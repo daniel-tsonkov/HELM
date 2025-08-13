@@ -3,6 +3,8 @@
 #3. Increase the replica count to 3
 
 existingSecret: custom-wp-credentials
+service:
+  type: NodePort
 autoscaling:
   enabled: true
   minReplicas: 2
