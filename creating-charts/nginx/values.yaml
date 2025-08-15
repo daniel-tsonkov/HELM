@@ -17,8 +17,10 @@ containerPorts:
 
 ## Setting for NGINX service
 ## 
+## @param service.enabled whether to deply the service altohether or not
 ## @param service.type The type of service in front of the Nginx pods
 ## @param service.port The port where where the service is reciving requests
 service:
+  enabled: true
   type: ClusterIP
   port: 80
