@@ -1,1 +1,6 @@
-test: I am a string
+# Replica count
+# Image, both name and tag
+# Service type and port
+
+## @param replicaCount Number of Nhinx replicas to deploy
+repticCount: 
