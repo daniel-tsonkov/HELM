@@ -1,3 +1,7 @@
+## @param customName allows to set custom resource name for the k8s resources in the chart.
+##        Default to {{ .Release.Name }}-{{ .Chart.Name }}
+customName: ''
+
 ## @param replicaCount Number of Nhinx replicas to deploy
 repticaCount: 3
 
@@ -7,7 +11,7 @@ repticaCount: 3
 ## @param image.tag Nginx image tag to use
 image:
   name: nginx
-  tag: 1.29.0
+  tag: '1.29.0'
 
 ## NGINX container ports
 ##
