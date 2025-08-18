@@ -3,4 +3,5 @@
 # Service type and port
 
 ## @param replicaCount Number of Nhinx replicas to deploy
-repticCount: 
+test: I am a string
+environment: staging

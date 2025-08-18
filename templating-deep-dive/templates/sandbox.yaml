@@ -1,1 +1,1 @@
-test: {{ .Values.test }}
+list: {{ toYaml (list 1 2 3) | nindent 4 }}
