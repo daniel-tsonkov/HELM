@@ -121,3 +121,9 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+demo-subchart:
+  customValue: 'FROM CONFIG STORE'
+
+global:
+  defaultStorageClass: 'MY-CUSTOM-STORAGECLASS'
