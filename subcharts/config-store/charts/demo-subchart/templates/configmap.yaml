@@ -1,0 +1,4 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ include "demo-subchart.demo-subchart.fullname" . }}
