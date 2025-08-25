@@ -129,3 +129,4 @@ postgresql:
     existingSecret: postgres-creds
     secretKeys:
       userPasswordKey: password
+  fullnameOverride: postgresql-db
